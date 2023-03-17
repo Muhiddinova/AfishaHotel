@@ -7,4 +7,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="registration">Регистрация</string>
     <string name="name">Имя</string>
+    <string name="product_name">Название товара</string>
+    <string name="price">Цена</string>
+    <string name="add_pic">Добавить фото</string>
+
+
 </resources>
