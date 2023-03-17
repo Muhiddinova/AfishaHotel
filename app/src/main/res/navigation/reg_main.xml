@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reg_main"
+    app:startDestination="@id/languageSelectionFragment">
+
+    <fragment
+        android:id="@+id/registrationProfileFragment"
+        android:name="com.example.hotelafisha.ui.registration.RegistrationProfileFragment"
+        android:label="RegistrationProfileFragment" />
+    <fragment
+        android:id="@+id/languageSelectionFragment"
+        android:name="com.example.afishahotel.ui.registration.LanguageSelectionFragment"
+        android:label="LanguageSelectionFragment" />
+    <fragment
+        android:id="@+id/forgotMyPasswordFragment"
+        android:name="com.example.hotelafisha.ui.registration.ForgotMyPasswordFragment"
+        android:label="ForgotMyPasswordFragment" />
+    <fragment
+        android:id="@+id/newPasswordFragment"
+        android:name="com.example.hotelafisha.ui.registration.NewPasswordFragment"
+        android:label="NewPasswordFragment" />
+    <fragment
+        android:id="@+id/accauntIsActiveFragment"
+        android:name="com.example.afishahotel.ui.registration.AccountIsActiveFragment"
+        android:label="fragment_accaunt_is_active"
+        tools:layout="@layout/fragment_accaunt_is_active" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.afishahotel.ui.registration.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <include app:graph="@navigation/mobile_navigation" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.afishahotel.MainActivity"
+        android:label="MainActivity" />
+</navigation>
